@@ -1,0 +1,53 @@
+#wrap {
+ background-color: Bisque linear-gradient(to bottom, black, Bisque);
+ min-width: fit-content;
+ text-align: center;
+ box-sizing: content-box;
+ margin-top: 4px;
+}
+
+#wraptwo {
+ width: 500px;
+ text-align: center;
+ border: 1px solid black;
+ margin: 0 auto;
+ background-color:rgb(213, 210, 210);
+}
+
+#info {
+ margin-top: 1px;
+ margin-bottom: 3px;
+ font-weight: 400;
+ font-family: Georgia, Verdana, sans-serif;
+}
+
+h1 {
+ font-weight: bold;
+ font-size: larger;
+}
+html, body {
+    height: 100%;
+    width: 100%;
+    margin: 0;
+}
+
+body {
+    font-family: Georgia, Verdana, sans-serif;
+    background-image: ;
+    background-repeat: no-repeat;
+    background-size: auto;
+    background-position: center;
+    display: flex;
+}
+
+p, div {
+    text-align: center; /* Align elements to center */
+    margin: 15px;
+}
+
+@media screen
+    and (min-width: 480px) {
+    label {
+     display: inline-block;
+    }
+}
