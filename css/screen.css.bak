@@ -33,7 +33,7 @@ html, body {
 
 body {
     font-family: Georgia, Verdana, sans-serif;
-    background-image: ;
+    background-image: url(https://kcain1fall22/.github.io/Lab2/images/color.jpeg);
     background-repeat: no-repeat;
     background-size: auto;
     background-position: center;
